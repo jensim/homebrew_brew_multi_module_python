@@ -6,7 +6,7 @@ class BrewMultiModulePython < Formula
   #version ''
 
   def install
-    bin.install 'runner.sh' => 'brew_multi_module_python'
+    bin.install '__main__.py' => 'brew_multi_module_python'
     bin.install 'py'
   end
 end
