@@ -5,5 +5,5 @@
 ```
 brew tap demo_jensim/brew_multi_module_python git@github.com:jensim/homebrew_brew_multi_module_python.git
 # brew update
-brew install --HEAD brew_multi_module_python
+brew install brew_multi_module_python
 ```
